@@ -1,0 +1,33 @@
+ <html>
+ <body>
+ <table class="table">
+    <thead>
+      <tr>
+	    <th> </th>
+	
+        <th>Company</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+ <?php
+if($_SERVER['REQUEST_METHOD']=='POST'){
+ $companyname = $_POST['name'];
+ $billno = $_POST['billno'];
+ $payer = $_POST['buyer'];
+ $date = $_POST['date'];
+ #$deliveredto == $_POST['deliveredto'];
+ $dop == $_POST['dop'];
+ $amount = $_POST['amount'];
+  echo '<tr>';
+ echo '<td>'.$companyname.'</td>';
+											 echo '<td>'.$payer.'</td>';
+											 echo '<td>'.$date.'</td>';
+											 echo '<td>'.$billno.'</td>';
+											 echo '<td>'.$amount.'</td>';
+											 echo '<td>'.$dop.'</td>';
+											 echo '</tr>';
+											 echo '</tbody>';
+											 ?>
+											 </body>
+											 </html>

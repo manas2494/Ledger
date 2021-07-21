@@ -1,0 +1,13 @@
+.navbar-inverse{
+	background-color: rgba(0,0,0,0.5);
+	border: rgba(0,0,0,0.5);
+	}
+	#colorcchange{
+		color: white;
+	}
+ #aboutme{
+ 	font-size: 30px;
+ 	padding:60px;
+ 	background-color:#FFFFCC;
+
+ }
